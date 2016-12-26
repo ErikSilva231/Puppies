@@ -11,7 +11,7 @@ angular.module('starter.services', [])
   }, {
     id: 1,
     name: 
-    desc: 'Limpiar el baño',
+    desc: 'Limpiar el bano',
     completado: false
   }, {
     id: 2,
