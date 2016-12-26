@@ -6,19 +6,17 @@ angular.module('starter.services', [])
   // Some fake testing data
   this.data = [{
     id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    face: 'img/ben.png'
+    desc: 'Ir al super',
+    completado: false
   }, {
     id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'img/max.png'
+    name: 
+    desc: 'Limpiar el baño',
+    completado: false
   }, {
     id: 2,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'img/adam.jpg'
+    desc: 'Pasar a verla',
+    completado: false
 
   }];
   this.all = function all () {
