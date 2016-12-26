@@ -10,7 +10,6 @@ angular.module('starter.services', [])
     completado: false
   }, {
     id: 1,
-    name: 
     desc: 'Limpiar el bano',
     completado: false
   }, {
