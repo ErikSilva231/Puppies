@@ -25,15 +25,25 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   
 
-  .state('tab.tofod', {
+  .state('tab.todos', {
       url: '/todos',
       views: {
-        'tab-tofos': {
+        'tab-todos': {
           templateUrl: 'templates/tab-todos.html',
           controller: 'TodosCtrl'
         }
       }
     })
+
+  .state('tab.tododetail', {
+    url: '/todos/:id',
+    views: {
+      'tab-todos': {
+        templateUrl: 'templates/todos-detail.html',
+        controller: 'TodoDetailCtrl',
+      }
+    }
+  })
  
 
   .state('tab.account', {
